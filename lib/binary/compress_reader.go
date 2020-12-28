@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/ClickHouse/clickhouse-go/lib/lz4"
+	"github.com/alvarotuso/clickhouse-go/lib/lz4"
 )
 
 type compressReader struct {

@@ -1,4 +1,4 @@
-# ClickHouse [![Build Status](https://travis-ci.org/ClickHouse/clickhouse-go.svg?branch=master)](https://travis-ci.org/ClickHouse/clickhouse-go) [![Go Report Card](https://goreportcard.com/badge/github.com/ClickHouse/clickhouse-go)](https://goreportcard.com/report/github.com/ClickHouse/clickhouse-go) [![codecov](https://codecov.io/gh/ClickHouse/clickhouse-go/branch/master/graph/badge.svg)](https://codecov.io/gh/ClickHouse/clickhouse-go)
+# ClickHouse [![Build Status](https://travis-ci.org/ClickHouse/clickhouse-go.svg?branch=master)](https://travis-ci.org/ClickHouse/clickhouse-go) [![Go Report Card](https://goreportcard.com/badge/github.com/alvarotuso/clickhouse-go)](https://goreportcard.com/report/github.com/alvarotuso/clickhouse-go) [![codecov](https://codecov.io/gh/ClickHouse/clickhouse-go/branch/master/graph/badge.svg)](https://codecov.io/gh/ClickHouse/clickhouse-go)
 
 Golang SQL database driver for [Yandex ClickHouse](https://clickhouse.yandex/)
 
@@ -50,7 +50,7 @@ tcp://host1:9000?username=user&password=qwerty&database=clicks&read_timeout=10&w
 * Enum
 * UUID
 * Nullable(T)
-* [Array(T) (one-dimensional)](https://clickhouse.yandex/reference_en.html#Array(T)) [godoc](https://godoc.org/github.com/ClickHouse/clickhouse-go#Array)
+* [Array(T) (one-dimensional)](https://clickhouse.yandex/reference_en.html#Array(T)) [godoc](https://godoc.org/github.com/alvarotuso/clickhouse-go#Array)
 
 ## TODO
 
@@ -58,7 +58,7 @@ tcp://host1:9000?username=user&password=qwerty&database=clicks&read_timeout=10&w
 
 ## Install
 ```
-go get -u github.com/ClickHouse/clickhouse-go
+go get -u github.com/alvarotuso/clickhouse-go
 ```
 
 ## Example
@@ -71,7 +71,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/ClickHouse/clickhouse-go"
+	"github.com/alvarotuso/clickhouse-go"
 )
 
 func main() {
@@ -164,7 +164,7 @@ import (
 	"time"
 
 	"github.com/jmoiron/sqlx"
-	_ "github.com/ClickHouse/clickhouse-go"
+	_ "github.com/alvarotuso/clickhouse-go"
 )
 
 func main() {
@@ -198,11 +198,11 @@ import (
 	"database/sql"
     "database/sql/driver"
 	"fmt"
-    "github.com/ClickHouse/clickhouse-go/lib/column"
+    "github.com/alvarotuso/clickhouse-go/lib/column"
 	"log"
 	"time"
 
-	"github.com/ClickHouse/clickhouse-go"
+	"github.com/alvarotuso/clickhouse-go"
 )
 
 func main() {
